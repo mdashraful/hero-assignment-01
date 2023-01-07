@@ -66,8 +66,8 @@ header {
     line-height: 26px;
 }
 
-.btn-banner {
-    margin-top: 30px;
+.btn-contact {
+    margin-top: 25px;
     color: #005FAC;
     background: #FFFFFF;
 }
@@ -113,4 +113,153 @@ main {
 .fa-ul {
     margin-left: var(--fa-li-margin,1.5em) !important;
 }
+/* plans section */
+.my-plans-container {
+    margin-top: 100px;
+    text-align: center;
+    margin-bottom: 100px;
+}
 
+.plans {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.plan-title {
+    margin-top: 24px;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+.plan-details {
+    margin-top: 16px;
+    font-weight: 500;
+    font-size: 25px;
+}
+/* call-to-action section */
+.call-to-action-section {
+    color: #FFFFFF;
+    margin-bottom: 100px;
+    background-image: linear-gradient(to right, rgba(0,95,172,1), rgba(0,95,172,0)), url('./images/watch.png');
+    border-radius: 8px;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.call-to-action {
+    margin-left: 65px;
+}
+/* ongoing mission */
+.missions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.mission {
+    margin-top: 50px;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+    /* padding: 20px; */
+    /* margin: 0 20px; */
+}
+
+
+.mission-left {
+    margin-right: 15px;
+}
+
+.mission-right {
+    margin-left: 15px;
+}
+
+.mission-thumbnail img {
+    width: 100%;
+    height: 320px;
+    border-radius: 5px 5px 0 0;
+}
+
+.mission-details {
+    padding: 20px;
+}
+
+.mission-title {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 30px; 
+}
+
+.btn-mission1 {
+    margin-top: 16px;
+    color:#FFFFFF;
+    background: #E44F25;
+}
+
+.btn-mission2 {
+    margin-top: 16px;
+    color:#FFFFFF;
+    background: #005FAC;
+}
+
+/* footer */
+footer {
+    width: 100%;
+    background: #151414;
+    color: #FFFFFF;
+}
+
+.footer-section {
+    padding: 130px 0;
+    width: 75%;
+    margin: auto;
+    display: flex;
+    position: relative;
+}
+
+.footer-left {
+    width: 50%;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 16px;
+}
+
+.footer-email {
+    margin: 16px 0;
+}
+
+.footer-right {
+    position: absolute;
+    right: 0;
+}
+
+.subscribe-label {
+    font-weight: 600;
+    font-size: 25px;
+    /* margin-bottom: 30px; */
+}
+
+input[type='email'] {
+    margin-top: 30px;
+    border: 1px solid #FFFFFF;
+    border-radius: 8px;
+    background: none;
+    color: #FFFFFF;
+    width: 325px;
+    padding: 21px;
+    margin-bottom: 16px;
+}
+
+.btn-subscribe {
+    color: #FFFFFF;
+    background: #005FAC;
+}
