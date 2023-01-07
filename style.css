@@ -233,6 +233,14 @@ footer {
     margin-bottom: 16px;
 }
 
+.social {
+    margin-top: 16px;
+}
+
+.social img{
+    margin-right: 16px;
+}
+
 .footer-email {
     margin: 16px 0;
 }
